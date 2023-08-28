@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="surgu.ru.argo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:4:5-76
+12-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:4:22-74
+13
+14    <application
+15        android:name="android.app.Application"
+15-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:7:9-42
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] C:\Users\ababij_vd\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="АРГО"
+19-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:6:9-29
+20        android:usesCleartextTraffic="true" >
+20-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:8:9-44
+21        <activity
+21-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:10:9-30:20
+22            android:name="surgu.ru.argo.MainActivity"
+22-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:11:13-41
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:15:13-163
+24            android:exported="true"
+24-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:12:13-36
+25            android:hardwareAccelerated="true"
+25-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:16:13-47
+26            android:launchMode="singleTop"
+26-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:13:13-43
+27            android:theme="@style/LaunchTheme"
+27-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:14:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:17:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:22:13-25:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:23:15-70
+38                android:resource="@style/NormalTheme" />
+38-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:24:15-52
+39
+40            <intent-filter>
+40-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:26:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:27:17-68
+41-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:28:17-76
+43-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:33:9-35:33
+51            android:name="flutterEmbedding"
+51-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:34:13-44
+52            android:value="2" />
+52-->D:\StudioProjects\dpo_rmc\android\app\src\main\AndroidManifest.xml:35:13-30
+53
+54        <activity
+54-->[:url_launcher_android] D:\StudioProjects\dpo_rmc\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+55            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+55-->[:url_launcher_android] D:\StudioProjects\dpo_rmc\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+56            android:exported="false"
+56-->[:url_launcher_android] D:\StudioProjects\dpo_rmc\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+57            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+57-->[:url_launcher_android] D:\StudioProjects\dpo_rmc\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+58
+59        <uses-library
+59-->[androidx.window:window:1.0.0-beta04] C:\Users\ababij_vd\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+60            android:name="androidx.window.extensions"
+60-->[androidx.window:window:1.0.0-beta04] C:\Users\ababij_vd\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\ababij_vd\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+62        <uses-library
+62-->[androidx.window:window:1.0.0-beta04] C:\Users\ababij_vd\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+63            android:name="androidx.window.sidecar"
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\ababij_vd\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+64            android:required="false" />
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\ababij_vd\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+65    </application>
+66
+67</manifest>
