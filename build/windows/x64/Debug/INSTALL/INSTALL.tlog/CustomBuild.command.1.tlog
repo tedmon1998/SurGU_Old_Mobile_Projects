@@ -1,0 +1,10 @@
+^C:\USERS\ABABIJ_VD\STUDIOPROJECTS\DPO_MANAGER\BUILD\WINDOWS\CMAKEFILES\1C73AA48B6437FB18E6DA67AD82ADFA7\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
